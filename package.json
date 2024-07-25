@@ -1,5 +1,5 @@
 {
-  "name": "tapas-countries",
+  "name": "demo-lemin-package",
   "version": "1.0.1",
   "type": "module",
   "description": "This is an NPM to fetch you the country details",
@@ -14,14 +14,14 @@
     "hooks",
     "npm"
   ],
-  "author": "Tapas Adhikary",
+  "author": "Ghori lemin",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atapas/tapas-countries"
+    "url": "https://github.com/LeminGhori/demo-lemin-package"
   },
   "bugs": {
-    "url": "https://github.com/atapas/tapas-countries/issues"
+    "url": "https://github.com/LeminGhori/demo-lemin-package/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
