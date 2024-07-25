@@ -1,0 +1,34 @@
+{
+  "name": "tapas-countries",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "This is an NPM to fetch you the country details",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:dev": "rollup -c --environment NODE_ENV:development",
+    "build": "rollup -c --environment NODE_ENV:production"
+  },
+  "keywords": [
+    "react",
+    "countries",
+    "hooks",
+    "npm"
+  ],
+  "author": "Tapas Adhikary",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atapas/tapas-countries"
+  },
+  "bugs": {
+    "url": "https://github.com/atapas/tapas-countries/issues"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "rollup": "^4.9.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
