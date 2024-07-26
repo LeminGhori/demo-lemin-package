@@ -5,8 +5,10 @@
   "description": "This is an NPM to fetch you the country details",
   "main": "dist/index.js",
   "scripts": {
-    "build:dev": "rollup -c --environment NODE_ENV:development",
-    "build": "rollup -c --environment NODE_ENV:production"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "keywords": [
     "react",
@@ -24,13 +26,9 @@
     "url": "https://github.com/LeminGhori/demo-lemin-package/issues"
   },
   "dependencies": {
-    "@babel/preset-env": "^7.24.8",
-    "@rollup/plugin-babel": "^6.0.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
   },
-  "devDependencies": {
-    "rollup": "^4.9.0",
-    "rollup-plugin-terser": "^7.0.2"
-  }
+  "devDependencies": {}
 }
